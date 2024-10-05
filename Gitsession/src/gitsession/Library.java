@@ -14,7 +14,7 @@ public boolean searchBook(String bookName) {
 return books.contains(bookName);
 }
 
-public void removeBook(String bookName) {
+public void removeeBook(String bookName) {
 if (books.remove(bookName)) {
 System.out.println(bookName + " removed from library");
 } else {
