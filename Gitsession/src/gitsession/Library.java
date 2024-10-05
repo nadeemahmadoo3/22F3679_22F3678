@@ -10,6 +10,11 @@ books.add(bookName);
 System.out.println(bookName + " added to library");
 }
 
+public boolean searchBook(String bookName) {
+return books.contains(bookName);
+}
+
+
 public void listBooks() {
 System.out.println("Books in library: "+ books);
 } }
